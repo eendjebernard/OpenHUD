@@ -8,7 +8,7 @@ import me.mrbernard.openhud.font.Font
 class StandardFont : Font("standard") {
 
     /**
-     * Get width of a character
+     * Get width of a standard character
      *
      * @param character Character to get the width of
      * @return Width of the given character
