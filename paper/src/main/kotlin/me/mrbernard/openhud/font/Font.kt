@@ -1,11 +1,20 @@
 package me.mrbernard.openhud.font
 
+import me.mrbernard.openhud.font.impl.standard.StandardFont
+import me.mrbernard.openhud.font.impl.tiny.TinyFont
+
 /**
  * Abstract class used to calculate the width of a character per font
  *
  * @property fontId ID of the font
  */
 abstract class Font(val fontId: String) {
+
+    companion object {
+
+        val STANDARD = StandardFont()
+        val TINY = TinyFont()
+    }
 
     /**
      * Get width of a character
