@@ -1,10 +1,10 @@
-package me.mrbernard.plugintemplate
+package me.mrbernard.openhud
 
-import me.mrbernard.plugintemplate.commands.PingCommand
+import me.mrbernard.openhud.commands.PingCommand
 import org.bukkit.plugin.java.JavaPlugin
 import revxrsal.commands.bukkit.BukkitCommandHandler
 
-class PluginTemplate : JavaPlugin() {
+class OpenHUD : JavaPlugin() {
 
     private lateinit var commandHandler: BukkitCommandHandler
 

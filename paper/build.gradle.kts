@@ -8,9 +8,9 @@ plugins {
     id("xyz.jpenilla.run-paper") version "2.1.0"
 }
 
-group = "me.mrbernard.plugintemplate"
+group = "me.mrbernard.openhud"
 version = "1.0"
-description = "Easy and fast plugin template with all the important libraries already imported"
+description = "Easy and fast HUD plugin with an API"
 
 java {
     toolchain.languageVersion.set(JavaLanguageVersion.of(17))

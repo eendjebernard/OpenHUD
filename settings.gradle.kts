@@ -11,6 +11,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PluginTemplate"
+rootProject.name = "OpenHUD"
 
 include(":paper")
