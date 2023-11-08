@@ -5,7 +5,9 @@ import me.mrbernard.openhud.font.Font
 /**
  * Implementation of the font class for the standard minecraft font
  */
-class StandardFont : Font("standard") {
+class StandardFont : Font(
+    "standard"
+) {
 
     /**
      * Get width of a standard character

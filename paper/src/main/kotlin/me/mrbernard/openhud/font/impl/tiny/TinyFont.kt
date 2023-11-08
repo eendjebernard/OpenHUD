@@ -5,7 +5,9 @@ import me.mrbernard.openhud.font.Font
 /**
  * Implementation of the font class for the tiny minecraft font
  */
-class TinyFont : Font("tiny") {
+class TinyFont : Font(
+    "tiny"
+) {
 
     companion object {
 

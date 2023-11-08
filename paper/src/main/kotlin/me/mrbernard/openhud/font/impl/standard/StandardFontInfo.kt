@@ -6,7 +6,10 @@ package me.mrbernard.openhud.font.impl.standard
  * @property character Character to bind width to
  * @property width Width to bind to character
  */
-enum class StandardFontInfo(val character: Char, val width: Int) {
+enum class StandardFontInfo(
+    val character: Char,
+    val width: Int
+) {
 
     A('A', 5), a('a', 5), B('B', 5), b('b', 5),
     C('C', 5), c('c', 5), D('D', 5), d('d', 5),
